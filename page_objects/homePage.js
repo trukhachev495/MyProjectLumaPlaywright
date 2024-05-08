@@ -14,8 +14,6 @@ class HomePage {
 
     async open() {
         await this.page.goto("/");
-        if (await this.page.getByRole('dialog', { name: 'This site asks for consent to use your data' }).isVisible()); 
-                await this.page.getByRole('button', { name: 'Consent' }).click();
       }
 
     // methods for the page Men
