@@ -21,3 +21,14 @@ export const LIST_STYLE_MEN_TOPS = [
     'Tank',
     'Tee'];
 // womenPageData
+
+
+
+// gearBagsPage
+export const PRICE_OPTIONS = [
+'$20.00 - $29.99',
+'$30.00 - $39.99',
+'$40.00 - $49.99',
+'$50.00 - $59.99',
+'$70.00 and above'
+]
